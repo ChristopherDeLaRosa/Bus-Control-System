@@ -1,0 +1,11 @@
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\bin\Debug\Entities.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\bin\Debug\Entities.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\obj\Debug\Business.450209FB.Up2Date
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

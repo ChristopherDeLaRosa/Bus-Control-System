@@ -1,0 +1,6 @@
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\Entities\bin\Debug\Entities.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\Entities\bin\Debug\Entities.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\Entities\obj\Debug\Entities.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Bus_Control_System\Entities\obj\Debug\Entities.pdb
