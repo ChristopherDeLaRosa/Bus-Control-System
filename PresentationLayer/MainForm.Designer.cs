@@ -62,7 +62,7 @@
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(320, 876);
+            this.panelSideMenu.Size = new System.Drawing.Size(320, 898);
             this.panelSideMenu.TabIndex = 0;
             // 
             // panel1
@@ -82,7 +82,7 @@
             this.panel1.ForeColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 876);
+            this.panel1.Size = new System.Drawing.Size(320, 898);
             this.panel1.TabIndex = 1;
             // 
             // btnAssignments
@@ -106,6 +106,7 @@
             this.btnAssignments.Text = "     Assignments";
             this.btnAssignments.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAssignments.UseVisualStyleBackColor = true;
+            this.btnAssignments.Click += new System.EventHandler(this.btnAssignments_Click);
             // 
             // panelDriverSubmenu
             // 
@@ -384,14 +385,14 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(320, 0);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(896, 876);
+            this.panelContainer.Size = new System.Drawing.Size(936, 898);
             this.panelContainer.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::PresentationLayer.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(269, 292);
+            this.pictureBox1.Location = new System.Drawing.Point(289, 303);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(378, 242);
             this.pictureBox1.TabIndex = 0;
@@ -401,7 +402,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1216, 876);
+            this.ClientSize = new System.Drawing.Size(1256, 898);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panelSideMenu);
             this.Name = "MainForm";

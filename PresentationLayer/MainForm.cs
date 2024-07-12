@@ -80,8 +80,8 @@ namespace PresentationLayer
         #region RouteSubmenu
         private void btnAddRoute_Click(object sender, EventArgs e)
         {
-            //RouteRegistration routeRegistration = new RouteRegistration();
-            //OpenFormInPanel(routeRegistration);
+            RouteRegistration routeRegistration = new RouteRegistration();
+            OpenFormInPanel(routeRegistration);
             //..
             HideSubmenu();
         }
@@ -135,12 +135,20 @@ namespace PresentationLayer
 
         private void btnReadDriver_Click(object sender, EventArgs e)
         {
-            //DriversForm driversForm = new DriversForm();
-            //OpenFormInPanel(driversForm);
+            DriversForm driversForm = new DriversForm();
+            OpenFormInPanel(driversForm);
             //..
             HideSubmenu();
         }
         #endregion
+
+        private void btnAssignments_Click(object sender, EventArgs e)
+        {
+            AssignmentForm assignmentForm = new AssignmentForm();
+            OpenFormInPanel(assignmentForm);
+        }
+
+        
     }
 
 }

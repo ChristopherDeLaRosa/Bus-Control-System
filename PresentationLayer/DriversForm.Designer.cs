@@ -1,6 +1,6 @@
 ﻿namespace PresentationLayer
 {
-    partial class BusesForm
+    partial class DriversForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvBuses = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.dgvDrivers = new System.Windows.Forms.DataGridView();
             this.btnDelete = new FontAwesome.Sharp.IconButton();
             this.btnUpdate = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBuses)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDrivers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dgvBuses
-            // 
-            this.dgvBuses.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBuses.Location = new System.Drawing.Point(124, 213);
-            this.dgvBuses.Name = "dgvBuses";
-            this.dgvBuses.RowHeadersWidth = 51;
-            this.dgvBuses.RowTemplate.Height = 24;
-            this.dgvBuses.Size = new System.Drawing.Size(638, 352);
-            this.dgvBuses.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(307, 79);
+            this.label1.Location = new System.Drawing.Point(296, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 52);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Buses\'s List";
+            this.label1.Size = new System.Drawing.Size(304, 52);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Drivers\'s List";
             // 
-            // pictureBox2
+            // dgvDrivers
             // 
-            this.pictureBox2.Image = global::PresentationLayer.Properties.Resources.btnDelete;
-            this.pictureBox2.Location = new System.Drawing.Point(567, 628);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(175, 65);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.dgvDrivers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDrivers.Location = new System.Drawing.Point(113, 252);
+            this.dgvDrivers.Name = "dgvDrivers";
+            this.dgvDrivers.RowHeadersWidth = 51;
+            this.dgvDrivers.RowTemplate.Height = 24;
+            this.dgvDrivers.Size = new System.Drawing.Size(638, 352);
+            this.dgvDrivers.TabIndex = 6;
             // 
             // btnDelete
             // 
@@ -81,10 +72,10 @@
             this.btnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDelete.IconSize = 30;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(597, 633);
+            this.btnDelete.Location = new System.Drawing.Point(586, 672);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(114, 45);
-            this.btnDelete.TabIndex = 3;
+            this.btnDelete.TabIndex = 9;
             this.btnDelete.Text = "Delete";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -103,10 +94,10 @@
             this.btnUpdate.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnUpdate.IconSize = 30;
             this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdate.Location = new System.Drawing.Point(186, 632);
+            this.btnUpdate.Location = new System.Drawing.Point(175, 671);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(124, 47);
-            this.btnUpdate.TabIndex = 2;
+            this.btnUpdate.TabIndex = 8;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -115,29 +106,38 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PresentationLayer.Properties.Resources.btnUpdate;
-            this.pictureBox1.Location = new System.Drawing.Point(165, 630);
+            this.pictureBox1.Location = new System.Drawing.Point(154, 669);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(182, 63);
-            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
-            // BusesForm
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PresentationLayer.Properties.Resources.btnDelete;
+            this.pictureBox2.Location = new System.Drawing.Point(556, 667);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(175, 65);
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
+            // DriversForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1014, 825);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1008, 853);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dgvBuses);
+            this.Controls.Add(this.dgvDrivers);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "BusesForm";
-            this.Text = "BusesForm";
-            this.Load += new System.EventHandler(this.BusesForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBuses)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.Name = "DriversForm";
+            this.Text = "DriversForm";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDrivers)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,10 +145,10 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvBuses;
-        private System.Windows.Forms.Label label1;
-        private FontAwesome.Sharp.IconButton btnUpdate;
         private FontAwesome.Sharp.IconButton btnDelete;
+        private FontAwesome.Sharp.IconButton btnUpdate;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dgvDrivers;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

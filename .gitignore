@@ -1,0 +1,11 @@
+.vs/
+# Ignore bin and obj folders
+bin/
+obj/
+
+# Ignore WebView2 generated files
+*.WebView2/
+
+# Ignore other temporary files
+*.dat
+*.log

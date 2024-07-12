@@ -22,3 +22,14 @@ C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\D
 C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.BusesForm.resources
 C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.BusesRegistration.resources
 C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.DriverRegistration.resources
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.DriversForm.resources
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\bin\Debug\Entities.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\bin\Debug\Entities.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.RouteRegistration.resources
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.UpdateBusForm.resources
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.UpdateDriverForm.resources
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.AssignmentForm.resources
