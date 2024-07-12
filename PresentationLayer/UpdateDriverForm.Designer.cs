@@ -106,9 +106,9 @@
             this.btnSaveChanges.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSaveChanges.IconSize = 35;
             this.btnSaveChanges.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSaveChanges.Location = new System.Drawing.Point(561, 560);
+            this.btnSaveChanges.Location = new System.Drawing.Point(551, 560);
             this.btnSaveChanges.Name = "btnSaveChanges";
-            this.btnSaveChanges.Size = new System.Drawing.Size(194, 44);
+            this.btnSaveChanges.Size = new System.Drawing.Size(204, 44);
             this.btnSaveChanges.TabIndex = 47;
             this.btnSaveChanges.Text = "Save changes";
             this.btnSaveChanges.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -259,7 +259,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(918, 713);
+            this.ClientSize = new System.Drawing.Size(920, 801);
             this.Controls.Add(this.chkIsAvailable);
             this.Controls.Add(this.dtpBirhdate);
             this.Controls.Add(this.btnCancel);

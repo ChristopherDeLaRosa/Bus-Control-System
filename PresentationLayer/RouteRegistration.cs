@@ -45,6 +45,7 @@ namespace PresentationLayer
 
             MessageBox.Show("Route added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.DialogResult = DialogResult.OK;
+            CleanControls();
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -55,6 +56,12 @@ namespace PresentationLayer
 
             webView.CoreWebView2.Navigate($"https://www.google.com/maps/search/{query}");
 
+        }
+
+        private void CleanControls()
+        {
+            txtCity.Clear();
+            txtRouteName.Clear();
         }
 
         

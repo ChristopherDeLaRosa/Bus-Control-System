@@ -88,6 +88,8 @@ namespace PresentationLayer
 
         private void btnSeeRoutes_Click(object sender, EventArgs e)
         {
+            RoutesForm routesForm = new RoutesForm();
+            OpenFormInPanel(routesForm);
             //..
             HideSubmenu();
         }
@@ -148,7 +150,11 @@ namespace PresentationLayer
             OpenFormInPanel(assignmentForm);
         }
 
-        
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            DashboardForm dashboardForm = new DashboardForm();
+            OpenFormInPanel(dashboardForm);
+        }
     }
 
 }

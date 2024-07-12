@@ -45,9 +45,9 @@
             this.label1.Font = new System.Drawing.Font("Tahoma", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(296, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(304, 52);
+            this.label1.Size = new System.Drawing.Size(338, 65);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Drivers\'s List";
+            this.label1.Text = "Drivers List";
             // 
             // dgvDrivers
             // 

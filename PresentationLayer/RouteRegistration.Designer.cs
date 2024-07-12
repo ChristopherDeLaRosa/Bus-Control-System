@@ -49,7 +49,7 @@
             // 
             this.txtRouteName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRouteName.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRouteName.Location = new System.Drawing.Point(430, 137);
+            this.txtRouteName.Location = new System.Drawing.Point(467, 137);
             this.txtRouteName.Name = "txtRouteName";
             this.txtRouteName.Size = new System.Drawing.Size(229, 28);
             this.txtRouteName.TabIndex = 28;
@@ -59,7 +59,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(12)))), ((int)(((byte)(163)))));
-            this.label3.Location = new System.Drawing.Point(425, 110);
+            this.label3.Location = new System.Drawing.Point(462, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 24);
             this.label3.TabIndex = 27;
@@ -68,7 +68,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PresentationLayer.Properties.Resources.textbox1;
-            this.pictureBox1.Location = new System.Drawing.Point(410, 123);
+            this.pictureBox1.Location = new System.Drawing.Point(447, 123);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(304, 61);
             this.pictureBox1.TabIndex = 29;
@@ -115,12 +115,17 @@
             // 
             // btnSearch
             // 
+            this.btnSearch.FlatAppearance.BorderSize = 0;
+            this.btnSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.IconChar = FontAwesome.Sharp.IconChar.SearchLocation;
             this.btnSearch.IconColor = System.Drawing.Color.Black;
             this.btnSearch.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnSearch.Location = new System.Drawing.Point(755, 123);
+            this.btnSearch.IconSize = 45;
+            this.btnSearch.Location = new System.Drawing.Point(757, 123);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(80, 58);
+            this.btnSearch.Size = new System.Drawing.Size(81, 42);
             this.btnSearch.TabIndex = 30;
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);

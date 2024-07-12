@@ -83,6 +83,18 @@
     <Compile Include="BusesRegistration.Designer.cs">
       <DependentUpon>BusesRegistration.cs</DependentUpon>
     </Compile>
+    <Compile Include="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoutesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoutesForm.Designer.cs">
+      <DependentUpon>RoutesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateBusForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +141,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BusesRegistration.resx">
       <DependentUpon>BusesRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoutesForm.resx">
+      <DependentUpon>RoutesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateBusForm.resx">
       <DependentUpon>UpdateBusForm.cs</DependentUpon>
@@ -205,6 +223,15 @@
       <Project>{9b59cdbf-e294-44cf-8e7b-704417ce1c9d}</Project>
       <Name>Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboardBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboardBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboardBox2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Web.WebView2.1.0.2592.51\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.2592.51\build\Microsoft.Web.WebView2.targets')" />

@@ -33,3 +33,5 @@ C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\D
 C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.UpdateBusForm.resources
 C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.UpdateDriverForm.resources
 C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.AssignmentForm.resources
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.RoutesForm.resources
+C:\Users\chris\Desktop\Proyectos_Csharp\BusControlSystem\PresentationLayer\obj\Debug\PresentationLayer.DashboardForm.resources

@@ -74,7 +74,32 @@ namespace PresentationLayer
             dgvAssignments.Refresh();
         }
 
-        private void btnAssign_Click(object sender, EventArgs e)
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            
+            if (dgvAssignments.SelectedRows.Count > 0)
+            {
+
+                int id = Convert.ToInt32(dgvAssignments.CurrentRow.Cells["AssignmentID"].Value);
+                _assignmentBL.DeleteAssignment(id);
+
+                MessageBox.Show("Assignment released successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.DialogResult = DialogResult.OK;
+                LoadData();
+
+            }
+            else
+            {
+                MessageBox.Show("Please select a Assignment to delete.", "Required selection", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void AssignmentForm_Load(object sender, EventArgs e)
+        {
+            LoadData();
+        }
+
+        private void btnAssign_Click_1(object sender, EventArgs e)
         {
             if (cmbDrivers.SelectedIndex == -1 || cmbBuses.SelectedIndex == -1 || cmbRoutes.SelectedIndex == -1)
             {
@@ -90,41 +115,16 @@ namespace PresentationLayer
             try
             {
                 _assignmentBL.AssignDriverToBusAndRoute(driverId, busId, routeId, assignmentDate);
-                MessageBox.Show("Assignment successful.");
+                MessageBox.Show("Assignment added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.DialogResult = DialogResult.OK;
                 LoadData();
-                
+
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
-        }
-  
-
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-            
-            if (dgvAssignments.SelectedRows.Count > 0)
-            {
-
-                int id = Convert.ToInt32(dgvAssignments.CurrentRow.Cells["AssignmentID"].Value);
-                _assignmentBL.DeleteAssignment(id);
-
-                MessageBox.Show("Assignment deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.DialogResult = DialogResult.OK;
-                LoadData();
-
-            }
-            else
-            {
-                MessageBox.Show("Please select a Assignment to delete.", "Required selection", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
-
-        private void AssignmentForm_Load(object sender, EventArgs e)
-        {
-            LoadData();
         }
     }
 }
